@@ -1,38 +1,110 @@
-.App {
+body,html{
+  height:100%;
+  background:#209cee;
+}
+.app{
+  padding:30px;
+}
+h1{
   text-align: center;
+  color:white;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo-list{
+  background: #e8e8e8;
+  border-radius:4px;
+  padding:10px;
+  width:100%;
+  height:70vh;
+  overflow:auto;
+  scroll-behavior: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todo{
+  background:#fff;
+  box-shadow:1px 1px 1px rgba(0,0,0,0.15);
+  padding:10px 20px;
+  font-size:12px;
+  margin-bottom:6px;
+  border-radius:3px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+input{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:5px 0px 5px 20px;
+  width: 100%;
+  border:0;
+  margin-top:5px;
+  margin-left:5px;
+  border-radius:4px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+button{
+  margin:5px;
+  border:0;
+  background:#3399cc;
+  color:white;
+  border-radius:100px;
+  cursor:pointer;
+}
+.close{
+  color:rgb(136, 43, 43);
+  background:white;
+  border:1px solid lightgray;
+  border-radius:10px;
   align-items: center;
+}
+.jsonPlaceholder{
+  text-align: center;
+  font-size:15px;
+  color:whitesmoke;
+}
+.no-todo{
+  text-align:center;
+  color:gray;
+  display:flex;
+  align-items: center;
+  align-self: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.creator{
+  position:fixed;
+  top:5%;
+  left:-1%;
+  text-align:center;
+  color:white;
+  transform: rotate(320deg);
+  background:maroon;
+  width:200px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.creator span{
+  font-size:12px;
+}
+.creator a{
+  color:white;
+}
+.mobile{
+  display:none;
+}
+@media(max-width:1000px){
+  .creator{
+    transform: none;
+    position: inherit;
+    width:100%;
+    margin-left:5px;
   }
-  to {
-    transform: rotate(360deg);
+  .mobile{
+    display:inline-block;
+  }
+  .desktop{
+    display:none;
+  }
+  .todoTitle{
+    width:60%;
   }
 }
