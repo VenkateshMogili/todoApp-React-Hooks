@@ -6,8 +6,6 @@ https://todoapp-f53f4.web.app/
 
 <img src="./src/output/demo.gif" />
 
-## Available Scripts
-
 To Install required npm packages:
 ### `npm install`
 
@@ -17,16 +15,16 @@ To Run React Server:
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
 To Build the Project:
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Your app is ready to be deployed!.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Deploy into Firebase in less than 5 minutes.
+Initialize firebase after creating project in https://console.firebase.google.com/
+### `firebase init`
+1.Choose Hosting and hit Space
+2.Choose Project (Either Create new project or Select Existing Project)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Final command to Deploy into firebase.
+### `firebase deploy`
