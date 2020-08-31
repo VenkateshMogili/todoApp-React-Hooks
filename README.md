@@ -6,6 +6,10 @@ https://todoapp-f53f4.web.app/
 
 <img src="./src/output/demo.gif" />
 
+# Get Started
+### Clone Project
+### `git clone https://github.com/VenkateshMogili/todoApp-React-Hooks.git`
+
 # To Install required npm packages:
 ### `npm install`
 
@@ -20,7 +24,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Your app is ready to be deployed!.
 
-# Deploy into Firebase in less than 5 minutes.
+# To Deploy into Firebase in less than 5 minutes.
 
 ## Login into Firebase account
 ### `firebase login`
