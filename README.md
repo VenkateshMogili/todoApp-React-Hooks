@@ -38,7 +38,7 @@ Note: Make sure your repository should contain build folder with index.html and 
 
 You can change the folder name from build to any name that you want to give. That name should be at end of the url as below.
 
-## That's It your site is ready at URL/build  (https://venkateshmogili.github.io/todoApp-React-Hooks/build)
+## That's It. Your site is ready at URL/build  (https://venkateshmogili.github.io/todoApp-React-Hooks/build)
 
 
 # Alternative Option for Hosting 
