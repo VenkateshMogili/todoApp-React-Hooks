@@ -6,7 +6,7 @@ https://todoapp-f53f4.web.app/
 
 OR
 
-https://venkateshmogili.github.io/todoApp-React-Hooks/build/
+https://venkateshmogili.github.io/todoApp-React-Hooks/build/index.html
 
 <img src="./src/output/demo.gif" />
 
