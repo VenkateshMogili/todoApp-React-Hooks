@@ -6,7 +6,7 @@ https://todoapp-f53f4.web.app/
 
 OR
 
-https://venkateshmogili.github.io/todoApp-React-Hooks/build/index.html
+https://venkateshmogili.github.io/todoApp-React-Hooks/build
 
 <img src="./src/output/demo.gif" />
 
@@ -36,9 +36,8 @@ You can see your site is published at URL like this (https://venkateshmogili.git
 
 Note: Make sure your repository should contain build folder with index.html and If any static files linked in src or href then they should be start with ./ instead of /
 
-You can change the folder name from build to any name that you want to give. That name should be at end of the url as below and /index.html is mandatory at the end of the url.
-
-## That's It. Your site is ready at URL/build  (https://venkateshmogili.github.io/todoApp-React-Hooks/build/index.html)
+You can change the folder name from build to any name that you want to give. That name should be at end of the url as below.
+## That's It. Your site is ready at URL/build  (https://venkateshmogili.github.io/todoApp-React-Hooks/build)
 
 
 # Alternative Option for Hosting 
