@@ -4,6 +4,10 @@ Todo Managment Application built with React Hooks and API (with Promises and Asy
 # Live Demo:
 https://todoapp-f53f4.web.app/
 
+OR
+
+https://venkateshmogili.github.io/todoApp-React-Hooks/build/
+
 <img src="./src/output/demo.gif" />
 
 # Get Started
@@ -24,6 +28,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Your app is ready to be deployed!.
 
+# To Deploy into GitHub Pages in less than 1 minute.
+
+## Go to settings->options->GitHub Pages
+### Select Branch as master and Select folder /root and click Save.
+You can see your site is published at URL like this (https://venkateshmogili.github.io/todoApp-React-Hooks/)
+
+Note: Make sure your repository should contain build folder with index.html and If any static files linked in src or href then they should be start with ./ instead of /
+
+You can change the folder name from build to any name that you want to give. That name should be at end of the url as below.
+
+## That's It your site is ready at URL/build  (https://venkateshmogili.github.io/todoApp-React-Hooks/build)
+
+
+# Alternative Option for Hosting 
 # To Deploy into Firebase in less than 5 minutes.
 
 ## Login into Firebase account
